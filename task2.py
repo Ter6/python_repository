@@ -1,6 +1,6 @@
 data = str(input("String: "))
-answer = ""
+answer = 0
 for y in data:
     if y.isdigit():
-        answer += y
+        answer += int(y)
 print(answer)
